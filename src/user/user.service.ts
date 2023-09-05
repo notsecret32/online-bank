@@ -70,14 +70,12 @@ export class UserService {
 								OR: [
 									{
 										name: {
-											contains: searchTerm,
-											equals: 'insensitive'
+											contains: searchTerm
 										}
 									},
 									{
 										email: {
-											contains: searchTerm,
-											equals: 'insensitive'
+											contains: searchTerm
 										}
 									}
 								]
